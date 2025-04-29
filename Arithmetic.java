@@ -1,4 +1,4 @@
-=public class Arithmetic{
+public class Arithmetic{
     public static void main(String[] args) {
     
         double num1 = 10.0;
