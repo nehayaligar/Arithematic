@@ -7,7 +7,6 @@ public class Arithmetic {
         double multiplication = num1 * num2;
         double subtraction = num1 - num2;
 
-        // Calculate division safely
         if (num2 != 0) {
             double division = num1 / num2;
             System.out.println("Division: " + division);
@@ -15,14 +14,13 @@ public class Arithmetic {
             System.out.println("Division: Cannot divide by zero.");
         }
 
-        // Calculate square root, power, and cube root
+        
         double squareRootNum1 = Math.sqrt(num1);
-        double squareRootNum2 = Math.sqrt(num2); // Will work even if num2 is zero
-        double power = Math.pow(num1, num2);     // num1 raised to the power of num2
+        double squareRootNum2 = Math.sqrt(num2); 
+        double power = Math.pow(num1, num2);     
         double cubeRootNum1 = Math.cbrt(num1);
-        double cubeRootNum2 = Math.cbrt(num2);   // Will work even if num2 is zero
+        double cubeRootNum2 = Math.cbrt(num2);   
 
-        // Display results
         System.out.println("Addition: " + addition);
         System.out.println("Multiplication: " + multiplication);
         System.out.println("Subtraction: " + subtraction);
